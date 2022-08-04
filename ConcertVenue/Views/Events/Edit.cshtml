@@ -1,0 +1,12 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ConcertVenue.Models.Event
+
+<h2>Edit</h2>
+
+<h4>Edit this event: @Html.DisplayFor(model => model.Name)</h4>
+
+
+<p>@Html.ActionLink("Back to events", "Index")</p>

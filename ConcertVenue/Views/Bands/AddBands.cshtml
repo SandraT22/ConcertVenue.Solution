@@ -1,0 +1,13 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ConcertVenue.Models.Band
+
+<h2>Add an event</h2>
+
+<h4>Add a event to this task: @Html.DisplayFor(model => model.Description)</h4>
+
+
+
+<p>@Html.ActionLink("Back to bands", "Index")</p>

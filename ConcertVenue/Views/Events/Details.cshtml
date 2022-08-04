@@ -1,0 +1,13 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ConcertVenue.Models.Event;
+
+<h2>Event Details</h2>
+<hr />
+
+
+<p>@Html.ActionLink("Back to event", "Index")</p>
+<p>@Html.ActionLink("Edit event", "Edit", new { id = Model.EventId })</p>
+<p>@Html.ActionLink("Delete event", "Delete", new { id = Model.EventId })</p>

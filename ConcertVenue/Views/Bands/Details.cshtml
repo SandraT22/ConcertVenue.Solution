@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ConcertVenue.Models.Band
+
+<h2>Item Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h3>
+
+
+
+<p>@Html.ActionLink("Add an event ", "AddCategory", new { id = Model.EventId })</p>
+
+<p>@Html.ActionLink("Back to bands", "Index")</p>
+<p>@Html.ActionLink("Edit bands", "Edit", new { id = Model.BandId })</p>
+<p>@Html.ActionLink("Delete ", "Delete", new { id = Model.BandId })</p>

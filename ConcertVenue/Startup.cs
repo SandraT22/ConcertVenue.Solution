@@ -6,9 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-using ProjectName.Models;
+using ConcertVenue.Models;
 
-namespace ProjectName
+namespace ConcertVenue
 {
   public class Startup
   {
@@ -27,7 +27,7 @@ namespace ProjectName
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<PlanetaryTravelAgencyContext>(options => options
+        .AddDbContext<ConcertVenueContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 

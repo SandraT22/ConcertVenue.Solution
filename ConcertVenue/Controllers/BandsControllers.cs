@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using ProjectName.Models;
+using ConcertVenue.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjectNamne.Controllers
+namespace ConcertVenue.Controllers
 {
-  public class ItemsController : Controller
+  public class BandsController : Controller
   {
 
   }

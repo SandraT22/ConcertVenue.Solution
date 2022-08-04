@@ -1,8 +1,8 @@
-# [YOUR PROJECT NAME HERE]
+# Concert Venue
 
-#### By  [YOUR NAME HERE]
+#### By  Sandra Tena
 
-#### [BRIEF DESCRIPTION HERE]  
+#### A concert venue website.  
 
 ---
 
@@ -20,7 +20,7 @@
 ---
 ## Description
 
-_This is an ..._
+_This is a website that will help the user keep track of events and bands performing for each event._
 
 ---
 ## Setup and Installation Requirements
